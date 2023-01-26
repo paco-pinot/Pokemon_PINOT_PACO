@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("../img/bgPikachu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.containerGame{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.containerBackground{
+    background-image: url("../img/arene.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    border: 5px gold solid;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.mewtwo{
+    height: 200px;
+    width: 200px;
+}
+.dracaufeu{
+    height: 200px;
+    width: 200px;
+}
+.barreVieDracaufeu,.barreVieMewtwo{
+width: 270px;
+height: 80px;
+background-color: black;
+border-radius: 10px;
+padding-left: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}   
+.barreVieMewtwo{
+    margin-right: 50px;
+}
+.haut-droite{
+    padding-left: 40px;
+}
+.bas-gauche{
+    padding-left: 30px;
+}
+.barreVieDracaufeu{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.barreVieMewtwo{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.droite{
+    padding-top:30px;
+    
+}
+.gauche{
+    padding-top:50px;
+}
+.nomPkmn{
+    color: white;
+}
+.pokeball{
+    display: flex;
+}
+.pokeballImage{
+    width: 20px;
+    height: 20px;
+    
+}
+.viePkmn{
+    color: white;
+}
+.containerHautPokeballs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.d-flex{
+    display: flex;
+}
+.fondVie{
+    width: 100px;
+    height: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+}
+.barreVie{
+    background-color: #58D080;
+    border: white 2px solid;
+    height: 10px;
+    border-radius: 10px;
+    transition: 1.8s;
+}
+/* ________ATK____________ */
+.divAtk{
+    width: 100%;
+    gap: 10px;
+    font-size: small;
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    align-items: center;
+    padding-right:10px ;
+}
+.margin0{
+    margin: 0;
+}
+.atkGauche{
+    width: 50%;
+    height: 100%;
+    /* padding: 20px; */
+    background-color: darkblue;
+    border: solid gold 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.padAtk{
+    padding: 10px;
+}
+.atkDroite{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.atkHautDroit,.atkBasDroite{
+    gap: 10px;
+}
+.hoverChoix:hover{
+border-bottom: 3px solid black;
+cursor: pointer;
+}
+.containerCombat{
+    width: 100%;
+    height: 150px;
+    font-size: smaller;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.atk{
+    background-color: rgba(128, 128, 128, 0.685);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.atk:hover{
+    color: gold;
+}
+.gaucheCombat{
+    width: 50%;
+    margin: 8px;
+}
+.droiteCombat{
+    width: 50%;
+    height: 90%;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.hautDroitCbt,.basDroitCbt{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    gap: 10px;
+    /* height: 100%; */
+    /* flex-direction: column; */
+}
+.btnContinue{
+    background-color: #FF5500;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* _____________________________________________________________________________________ */
+
+
+/* _____________________PAGE ACCUEIL_________________________ */
+.contAccueil{
+    background-image: url("../img/H2x1_GB_PokemonBlue_frFR.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.letsGo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gold;
+    
+}
+.letsGo a {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+/* _________________SAC A DOS__________________ */
+.sacAdos{
+    background-image: url("../img/fondVert.jpg");
+    display: none;
+    /* dis flex a l'affichage */
+    width: 100%;
+}
+.colGaucheSac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.colGaucheSac img{
+    height: 100px;
+    width: 100px;
+
+}
+.hautSac img{
+width: 50px;
+height: 50px;
+border: black solid 1px;
+}
+.basSac{
+    border-radius: 10px;
+border: black solid 1px;
+    background-color: white;
+}
+.colDroiteSac{
+    border: solid 2px rgba(0, 0, 255, 0.582);
+    width: 50%;
+    background-color: #F8E088;
+    margin: 2px;
+}
+.listeSac{
+    background-color: #F8F8C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.listeSac ul{
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnSac{
+    background-color: #FF5500;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
