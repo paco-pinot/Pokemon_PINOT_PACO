@@ -330,9 +330,12 @@ function finCombat() {
   if (mewtwo.pv <= 0) {
     alert("Tu as perdu");
     document.location.href = "../../index.html";
+    return
+    
   } else if (dracaufeu.pv <= 0) {
     alert("Tu as gagner");
     document.location.href = "../../index.html";
+    return
   }
 }
 let potion = false;

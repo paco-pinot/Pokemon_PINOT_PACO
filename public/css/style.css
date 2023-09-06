@@ -467,6 +467,13 @@ main {
             text-align: center;
             font-size: 7px;
         }
+        .basSac{
+            font-size: 10px;
+        }
+        .listeSac{
+            font-size: 12px;
+            height: 100%;
+        }
         /* ______________ACCUEIL_____________ */
         .letsGo{
             width:80px ;
